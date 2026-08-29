@@ -1,0 +1,3 @@
+com\alejocalvo\huerta_casera_api\model\Cultivo.class
+com\alejocalvo\huerta_casera_api\controller\CultivoController.class
+com\alejocalvo\huerta_casera_api\HuertaCaseraApiApplication.class
