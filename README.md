@@ -1,6 +1,6 @@
 # Huerta Casera API
 
-API REST básica desarrollada con Java y Spring Boot para consultar y registrar cultivos de una huerta casera. El proyecto fue creado con fines académicos para practicar endpoints, métodos HTTP, parámetros, envío de datos en JSON, DTO y respuestas HTTP.
+API REST básica desarrollada con Java y Spring Boot para consultar y registrar cultivos de una huerta casera. El proyecto fue creado con fines académicos para practicar endpoints, métodos HTTP, parámetros, envío de datos en JSON, DTO y respuestas HTTP. Utilicé inteligencia artificial durante el desarrollo de la actividad, la usé como apoyo para comprender algunos conceptos, solucionar algunos errores que se me presentaron y ordenar el README. 
 
 ## Tecnologías utilizadas
 
