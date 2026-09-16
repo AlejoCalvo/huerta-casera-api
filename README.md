@@ -95,7 +95,7 @@ javac -version
 1. Clonar el repositorio:
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/AlejoCalvo/huerta-casera-api.git
 ```
 
 2. Entrar en la carpeta:
