@@ -4,31 +4,24 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
 
 @Entity
-public class Cultivo {
+public class Zona {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String nombre;
-    private String tipo;
+    private String descripcion;
 
-    @ManyToOne
-    @JoinColumn(name = "zona_id")
-    private Zona zona;
-
-    public Cultivo() {
+    public Zona() {
     }
 
-    public Cultivo(Long id, String nombre, String tipo, Zona zona) {
+    public Zona(Long id, String nombre, String descripcion) {
         this.id = id;
         this.nombre = nombre;
-        this.tipo = tipo;
-        this.zona = zona;
+        this.descripcion = descripcion;
     }
 
     public Long getId() {
@@ -47,19 +40,11 @@ public class Cultivo {
         this.nombre = nombre;
     }
 
-    public String getTipo() {
-        return tipo;
+    public String getDescripcion() {
+        return descripcion;
     }
 
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
-    }
-
-    public Zona getZona() {
-        return zona;
-    }
-
-    public void setZona(Zona zona) {
-        this.zona = zona;
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
     }
 }

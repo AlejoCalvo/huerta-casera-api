@@ -1,10 +1,11 @@
 package com.alejocalvo.huerta_casera_api.dto;
 
 public class CultivoRequest {
+
     private String nombre;
     private String tipo;
+    private Long zonaId;
 
-    // Getters and setters
     public String getNombre() {
         return nombre;
     }
@@ -20,13 +21,12 @@ public class CultivoRequest {
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
-    private String ubicacion;
 
-public String getUbicacion() {
-    return ubicacion;
-}
+    public Long getZonaId() {
+        return zonaId;
+    }
 
-public void setUbicacion(String ubicacion) {
-    this.ubicacion = ubicacion;
-}
+    public void setZonaId(Long zonaId) {
+        this.zonaId = zonaId;
+    }
 }
